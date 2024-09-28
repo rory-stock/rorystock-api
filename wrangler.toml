@@ -1,6 +1,6 @@
 name = "api"
 compatibility_date = "2024-09-27"
-main = "src/index.ts"
+main = "src/index.tsx"
 minify = true
 compatibility_flags = [ "nodejs_compat" ]
 
