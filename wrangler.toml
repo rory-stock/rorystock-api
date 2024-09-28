@@ -4,6 +4,10 @@ main = "src/index.tsx"
 minify = true
 compatibility_flags = [ "nodejs_compat" ]
 
+routes =[
+    { pattern = "api.rorystock.com", custom_domain = true },
+]
+
 # [vars]
 # MY_VAR = "my-variable"
 
