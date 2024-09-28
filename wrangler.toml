@@ -1,4 +1,4 @@
-name = "api"
+name = "rorystock-api"
 compatibility_date = "2024-09-27"
 main = "src/index.tsx"
 minify = true
