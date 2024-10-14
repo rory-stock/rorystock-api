@@ -28,9 +28,9 @@ app.post('/', async (c) => {
         to: 'rorystock06@gmail.com',
         subject: 'New message from ' + data.name,
         react: <ContactEmail data={data} />,
-    });
 
-    return c.json(data);
+        
+    });
 });
 
 export default app

@@ -1,5 +1,5 @@
 import { Hono } from 'hono'
-import contact from './contact'
+import contact from './resend/contact'
 
 const app = new Hono()
 
